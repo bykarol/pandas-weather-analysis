@@ -1,12 +1,10 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+Software made using Python pandas, to analyze a set of data (Weather history) to answer the following questions:
+1. What is the average temperature for each month?
+2. How does humidity correlate with temperature?
+3. How does temperature vary over time?
 
-{Provide a description of the data set that you are analyzing.  Include the link of where you obtained the data.}
-
-{Describe your purpose for writing this software to analyze the data.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the data set, the questions and answers, the code running and a walkthrough of the code.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
@@ -16,7 +14,7 @@
   - Activate the virtual environment: `.\venv\Scripts\activate`
 2. Use pip to install NumPy and Pandas: 
   - `python -m pip install pandas`
-  - `python -m pip install numpy`
+  - `python -m pip install matplotlib`
 3. Follow these steps:
   - Load and inspect de dataset
   - Identify the questions to be answered.
@@ -32,7 +30,22 @@
 
 # Data Analysis Results
 
-{List the questions and the answers you found by doing this analysis.}
+1. What is the average temperature for each month?
+The data highlights that the winter season encompasses the months with the lowest temperatures, particularly in January and February, which tend to be the coldest months of the year. The temperature gradually increases through spring, peaking in the summer months. July is identified as the hottest month of the year, followed closely by August, where temperatures begin to slightly decrease.
+
+
+2. How does humidity correlate with temperature?
+The correlation coefficient will be a value between -1 and 1:
+  - 1 indicates a perfect positive correlation.
+  - 0 indicates no correlation.
+  - -1 indicates a perfect negative correlation.
+
+  For example, in this dataset, the correlation coefficient of -0.6 would suggest a moderate negative correlation, meaning that as the temperature increases, the humidity tends to decrease moderately.
+
+3. How does temperature vary over time?
+  - Seasonal Changes: There's a clear pattern of temperature changes repeating every year. Warm temperatures peak during the summer months, and cold temperatures drop during the winter months.
+  - Temperature Range: The difference between the highest and lowest temperatures is quite large, indicating distinct seasons with very warm and very cold periods.
+  - Yearly Consistency: The annual temperature pattern remains stable over the years, suggesting consistent seasonal changes without major shifts over the time period analyzed.
 
 # Development Environment
 
@@ -40,9 +53,11 @@
 - Git / GitHub
 - Python
 - Pandas (statistics library)
-- Seaborn
-- NumPy
+- Matplotlib (Data visualization)
 - Kaggle - [weather dataset](https://www.kaggle.com/datasets/muthuj7/weather-dataset)
+- Jupyter extension (Notebooks)
+
+>> A notebook for writing in Pandas refers to a Jupyter Notebook, an open-source web application that allows you to create and share documents containing live code, equations, visualizations, and narrative text. Jupyter Notebooks are widely used for data analysis, scientific research, and machine learning. The Jupyter extension in VS Code brings the functionality of Jupyter Notebooks into a powerful, integrated development environment.
 
 # Useful Websites
 
@@ -55,7 +70,4 @@
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* No future work for now
