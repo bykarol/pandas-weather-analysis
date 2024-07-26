@@ -12,7 +12,7 @@ Software made using Python pandas, to analyze a set of data (Weather history) to
 1. Virtual environment to manage dependencies (optional):
   - Set virtual environment: `python -m venv venv`
   - Activate the virtual environment: `.\venv\Scripts\activate`
-2. Use pip to install NumPy and Pandas: 
+2. Use pip to install Pandas and Matplotlib: 
   - `python -m pip install pandas`
   - `python -m pip install matplotlib`
 3. Follow these steps:
